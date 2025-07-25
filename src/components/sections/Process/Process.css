@@ -1,0 +1,71 @@
+.process {
+  background-color: var(--bs-white);
+  padding-block: 100px 0;
+}
+
+.process h2 {
+  font-size: 50px;
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 50px;
+}
+
+.process .box {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.process .process-box {
+  color: var(--title-color);
+  padding: 20px 50px;
+  border-radius: 20px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 9px 7px 0 rgba(0, 0, 0, 0.03),
+    0 18px 14px 0 rgba(0, 0, 0, 0.04), 0 36px 29px 0 rgba(0, 0, 0, 0.05);
+  background-color: var(--bsc-white);
+  min-height: 250px;
+}
+
+.process .box .step-icon {
+  margin-right: -30px;
+}
+.process .process-box .title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.process .process-box .step {
+  font-weight: 600;
+}
+
+.process .process-box p {
+  color: var(--dark-gray);
+}
+
+.process .process-box .key-text {
+  color: var(--sub-title-color);
+}
+
+@media (max-width: 1200px) {
+  .process .box {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 579px) {
+  .process .box {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .process .process-box {
+    align-items: center;
+    text-align: center;
+  }
+
+  .process .box .step-icon {
+    margin-right: 0px;
+  }
+  .process h2 {
+    font-size: 40px;
+  }
+}

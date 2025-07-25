@@ -1,0 +1,120 @@
+.contact {
+  background-color: var(--bs-white);
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+.contact .row {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+}
+
+.contact .c-1 {
+  padding: 20px;
+  position: sticky;
+  top: 30px;
+  border: 1px solid var(--accent-color);
+  width: 50%;
+  max-width: 30%;
+}
+
+.contact .c-1 h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.contact .contact-us-form h2 {
+  font-size: 35px;
+}
+
+.contact .contact-us-form p {
+  color: var(--dark-gray);
+}
+
+.contact .contact-us-form form {
+  margin-top: 30px;
+}
+
+.contact .contact-us-form .form-group {
+  display: flex;
+  gap: 20px;
+}
+
+.contact .contact-us-form .form-group label {
+  font-weight: 500;
+  min-width: 185px;
+}
+
+.contact .contact-us-form .form-group input,
+.contact .contact-us-form .form-group textarea {
+  outline: none;
+  padding: 16px 20px;
+  border: 1px solid var(--accent-color);
+  width: 60%;
+}
+
+.contact .contact-us-form .form-group textarea {
+  resize: vertical;
+}
+
+.contact .contact-us-form button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: var(--black);
+  background-color: var(--priamry-btn-color);
+  font-weight: 600;
+  cursor: pointer;
+  font-weight: 600;
+  transition: var(--trasition-1);
+}
+
+.contact .contact-us-form button:hover {
+  color: var(--bs-white);
+  background-color: var(--accent-color);
+}
+iframe {
+  width: 100%;
+  margin-top: 20px;
+  height: 300px;
+}
+
+@media (max-width: 1200px) {
+  .contact .section {
+    padding-block-start: 0;
+  }
+  .contact .c-1 {
+    top: 200px;
+  }
+}
+@media (max-width: 999px) {
+  .contact .c-1 {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+  }
+  .contact .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 599px) {
+  .contact .form-group {
+    flex-direction: column;
+  }
+
+  .contact .contact-us-form h2 {
+    font-size: 25px;
+  }
+  .contact .contact-us-form p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .contact .contact-us-form .form-group input,
+  .contact .contact-us-form .form-group textarea {
+    width: 100%;
+  }
+}

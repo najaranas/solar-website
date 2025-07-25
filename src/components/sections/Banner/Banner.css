@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+  background: linear-gradient(to right, #000000cf, #00000027),
+    url("/public/assets/banner-bg-1.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  padding-block: 120px;
+  z-index: 2;
+}
+
+.banner .content {
+  align-items: start;
+}
+
+.banner .content h3 {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 799px) {
+  .banner {
+    padding: 100px 0px;
+  }
+
+  .banner .content h3 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,41 @@
+.apropos-page .landing {
+  background: var(--bs-white);
+  color: var(--title-color);
+}
+
+.apropos-page .landing .content {
+  position: sticky;
+  top: 15px;
+}
+
+.apropos-page .landing img {
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.apropos-page .landing h1 {
+  font-size: 60px;
+  line-height: 75px;
+}
+
+.apropos-page .landing p {
+  color: var(--dark-gray);
+}
+
+.apropos-page .landing .primary-btn {
+  color: var(--bs-white);
+  background-color: var(--title-color);
+  transition: var(--trasition-1);
+}
+
+.apropos-page .landing .primary-btn:hover {
+  background-color: var(--priamry-btn-color-hover);
+  color: var(--bs-white);
+}
+
+@media (max-width: 1200px) {
+  .apropos-page .landing .content {
+    position: static;
+  }
+}

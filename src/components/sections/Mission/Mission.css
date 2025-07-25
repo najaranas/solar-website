@@ -1,0 +1,61 @@
+.mission {
+  background-color: var(--bs-white);
+  padding-bottom: 100px;
+}
+
+.mission .container {
+  background: var(--bglinear-gradient);
+  border-radius: 30px;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.mission .container .title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mission .container h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.mission .container .mission-services {
+  margin-top: 100px;
+}
+
+.mission .container .mission-services img {
+  width: 80px;
+}
+
+.mission .container .mission-services .missions-item {
+  min-width: calc(100% / 3 - 10px);
+}
+
+.mission .container .mission-services .missions-item .data {
+  font-weight: 500;
+}
+
+@media (max-width: 999px) {
+  .mission .container .mission-services {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  .mission .container .mission-services .missions-item {
+    min-width: 100%;
+  }
+  .mission .container {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 599px) {
+  .mission .container h2 {
+    font-size: 30px;
+  }
+
+  .mission .container p {
+    font-size: 15px;
+  }
+}

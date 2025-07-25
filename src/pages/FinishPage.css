@@ -1,0 +1,29 @@
+.finish-page {
+  background-color: var(--bs-white);
+  color: var(--title-color);
+  text-align: center;
+}
+
+.finish-page .fa-triangle-exclamation,
+.finish-page h4 {
+  color: var(--red-accent);
+}
+
+.finish-page h4.merci,
+.finish-page .fa-thumbs-up {
+  color: var(--green-accent);
+}
+
+.finish-page h3 {
+  font-size: 40px;
+}
+
+.finish-page .text {
+  font-weight: 500;
+  color: var(--title-color);
+}
+@media (max-width: 799px) {
+  .finish-page .actions {
+    flex-direction: column;
+  }
+}

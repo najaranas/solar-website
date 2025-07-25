@@ -1,0 +1,53 @@
+.specialists .content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.specialists .main-img {
+  width: 50%;
+  border-radius: 30px;
+}
+
+.specialists h1 {
+  font-size: 50px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1200px) {
+  .specialists .container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+  }
+
+  .specialists .content {
+    align-items: center;
+    text-align: center;
+  }
+  .specialists .content .data {
+    text-align: start;
+  }
+  .specialists .main-img {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 579px) {
+  .specialists .container {
+    padding: 0 40px;
+  }
+
+  .specialists h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .specialists p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}

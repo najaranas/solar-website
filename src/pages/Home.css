@@ -1,0 +1,25 @@
+/* MEDIA QUERY */
+@media (max-width: 1200px) {
+  .home-page .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 579px) {
+  .home-page .container {
+    padding: 0 40px;
+  }
+
+  .home-page h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .home-page h2 {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .home-page p {
+    font-size: 15px;
+  }
+}
