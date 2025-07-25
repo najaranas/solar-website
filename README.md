@@ -2,6 +2,8 @@
 
 A modern, responsive web application for showcasing and managing solar energy projects. Built with React and bootstrapped using [Create React App](https://github.com/facebook/create-react-app).
 
+> ⚠️ **Warning:** This project is from my early React learning stage. Code and structure may not reflect best practices.
+
 > ⚡ **Note:** This project demonstrates a scalable, modular approach to building a solar project portfolio and management platform.
 
 ## 🌐 Live Demo
