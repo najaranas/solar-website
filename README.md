@@ -6,8 +6,8 @@ A modern, responsive web application for showcasing and managing solar energy pr
 
 ## 🌐 Live Demo
 
-<!-- Uncomment and add your live link if available -->
-<!-- **[Solar Projects Live Demo](https://your-live-demo-link.com/)** -->
+
+**[Solar Projects Live Demo](https://najar-solar.netlify.app)**
 
 ## ✨ Features
 
@@ -34,8 +34,8 @@ A modern, responsive web application for showcasing and managing solar energy pr
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
-   cd full-template
+   git clone https://github.com/najaranas/solar-website
+   cd solar-website
    ```
 
 2. **Install dependencies**
